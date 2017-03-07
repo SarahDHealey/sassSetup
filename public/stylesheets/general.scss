@@ -2,6 +2,7 @@ $dark-grey: #333;
 $light-grey: #DDD;
 $white: #FFF;
 $green: #5D995B;
+$blue: #3F6E99;
 $black: #000;
 $font-stack: Helvetica, sans-serif;
 $primary-color: #CCC;
@@ -54,7 +55,7 @@ main {
       min-width: 60vw;
       min-height: 50vh;
       padding: 1rem;
-      border: solid $dark-grey 1px;
+      border: solid $blue 1px;
       background-color: $white;
     }
 }
