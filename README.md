@@ -102,10 +102,8 @@ footer {
   height: 45px;
 }
 ```
-
-- touch public/stylesheets/style.scss
-     use style.scss as a container/coordinator
-     in your style.scss import general.scss below the reset
+- use style.scss as a container/coordinator
+- in your style.scss import general.scss below the reset
 ```javascript
 @import "reset";
 @import "general";
