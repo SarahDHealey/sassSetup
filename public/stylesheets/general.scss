@@ -1,0 +1,67 @@
+$dark-grey: #333;
+$light-grey: #DDD;
+$white: #FFF;
+$green: #5D995B;
+$black: #000;
+$font-stack: Helvetica, sans-serif;
+$primary-color: #CCC;
+@import url( 'https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700');
+
+body {
+    font-family: Merriweather;
+    color: $black;
+    background-color: $white;
+    font-weight: 300;
+}
+
+header {
+    font: 100% $font-stack;
+    height: 45px;
+    padding: 1rem;
+    background-color: $green;
+    color: $white;
+}
+
+main {
+    padding: 1rem;
+    min-height: calc(60vh + 60px);
+    max-height: calc(100vh - 90px);
+    background-color: $light-grey;
+
+    nav {
+      float: left;
+      max-width: 30vw;
+        ul {
+            margin: 0;
+            padding: 0;
+            padding-top: .5rem;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        a {
+            display: block;
+            padding: 6px 12px;
+            text-decoration: none;
+        }
+    }
+
+    article {
+      float: right;
+      min-width: 60vw;
+      min-height: 50vh;
+      padding: 1rem;
+      border: solid $dark-grey 1px;
+      background-color: $white;
+    }
+}
+
+footer {
+    padding: 1rem;
+    background-color: $dark-grey;
+    color: $white;
+    height: 45px;
+}
