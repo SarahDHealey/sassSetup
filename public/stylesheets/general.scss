@@ -1,0 +1,38 @@
+$dark-grey: #333;
+$white: #FFF;
+$blue: #4682B4;
+$orange: #FF8C00;
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700');
+
+body {
+  font-family: Merriweather;
+}
+
+header {
+  nav {
+    color: $blue;
+    padding-bottom: 2em;
+    a {
+      color: $orange;
+      float: right;
+    }
+  }
+  background-color: $dark-grey;
+  color: $white;
+  height: 45px;
+  padding: 1rem;
+  font-weight: 300;
+}
+
+main {
+  padding: 1rem;
+  min-height: calc(100vh - 90px);
+}
+
+footer {
+  padding: 1rem;
+  background-color: $dark-grey;
+  color: $white;
+  height: 45px;
+}
