@@ -1,2 +1,33 @@
 @import "reset";
 @import "general";
+
+$font-stack:    'Lobster', cursive;
+$primary-color: #00CD00;
+$secondary-color: #00BFCB;
+$third-color: #F600C4;
+
+
+nav {
+
+background-color: $third-color;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: $secondary-color;
+  }
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
