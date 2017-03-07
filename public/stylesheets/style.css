@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700");
+body {
+  font-family: Merriweather; }
+
+header {
+  background-color: #333;
+  color: #FFF;
+  height: 45px;
+  padding: 1rem;
+  font-weight: 300; }
+
+main {
+  padding: 1rem;
+  min-height: calc(100vh - 210px); }
+
+footer {
+  padding: 1rem;
+  background-color: #333;
+  color: #FFF;
+  height: 45px; }
+
+.nest {
+  background-color: #DEB887; }
+  .nest ul {
+    margin: 10; }
+  .nest li {
+    display: inline-block;
+    padding: 2%; }
+  .nest a {
+    display: run-in;
+    padding: 4%; }
+
+/*# sourceMappingURL=style.css.map */
