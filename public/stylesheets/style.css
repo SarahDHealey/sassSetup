@@ -58,7 +58,8 @@ header {
 
 main {
   padding: 1rem;
-  min-height: calc(100vh - 90px); }
+  min-height: calc(100vh - 90px);
+  background-color: #A39B8B; }
 
 footer {
   padding: 1rem;

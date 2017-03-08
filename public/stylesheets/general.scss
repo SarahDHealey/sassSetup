@@ -8,12 +8,10 @@ $grullo: #A39B8B;
 body {
   font-family: Merriweather;
   font-size: 2rem;
-  // color: $blue-jeans;
 }
 
 header {
   background-color: $black;
-  // color: $eggshell;
   height: 45px;
   padding: 1rem;
   font-weight: 300;
@@ -22,13 +20,12 @@ header {
 main {
   padding: 1rem;
   min-height: calc(100vh - 90px);
-  // background-color: $grullo;
+  background-color: $grullo;
 }
 
 footer {
   padding: 1rem;
   background-color: $black;
-  // color: $eggshell;
   height: 45px;
 }
 
