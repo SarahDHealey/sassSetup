@@ -1,0 +1,43 @@
+$black: #07020D;
+$eggshell: #F1E9DB;
+$blue-jeans: #5DB7DE;
+$grullo: #A39B8B;
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700');
+
+body {
+  font-family: Merriweather;
+  font-size: 2rem;
+}
+
+header {
+  background-color: $black;
+  height: 45px;
+  padding: 1rem;
+  font-weight: 300;
+}
+
+main {
+  padding: 1rem;
+  min-height: calc(100vh - 90px);
+  background-color: $grullo;
+}
+
+footer {
+  padding: 1rem;
+  background-color: $black;
+  height: 45px;
+}
+
+body {
+  color: $blue-jeans;
+  header {
+    color: $eggshell;
+    main {
+      background-color: $grullo;
+      footer {
+        color: $eggshell;
+      }
+    }
+  }
+}
